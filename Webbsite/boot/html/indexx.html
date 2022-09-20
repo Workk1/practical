@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello | Navbar</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  </head>
+  <body>
+<div class="navbar navbar-expand-md text-bg-warning">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">NavBar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#datapass" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="datapass">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" href="">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="">About</a>
+            </li> <li class="nav-item">
+                <a class="nav-link active" href="">Notice</a>
+            </li> <li class="nav-item">
+                <a class="nav-link active" href="">Contact</a>
+            </li>
+        </li> <li class="nav-item">
+            <a class="nav-link active" href="">Gallery</a>
+        </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input type="search"aria-label="search" placeholder="Search" class="form-control me-2">
+                <button class="btn btn-outline-danger">Search</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!--This is Sliding Image-->
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div id="pass" class="carousel slide" data-bs-ride="true">
+				<div class="carousel-indicators">
+					<button type="button" class="active bg-danger" data-bs-target="#pass" data-bs-slide-to="0" aria-current="true" aria-label="slide 1"></button>
+						<button type="button" class="bg-info"  data-bs-target="#pass" data-bs-slide-to="1" aria-current="true" aria-label="slide 2"></button>
+							<button type="button" class="text-bg-warning"  data-bs-target="#pass" data-bs-slide-to="2" aria-current="true" aria-label="slide 3">
+						
+					</button>
+					
+				</div>
+				<div class="carousel-inner">
+                    <div class="carousel-item active">
+					<img src="../image/78.png" class="d-block w-100">
+					<div class="carousel-caption d-none d-md-block">
+						<h5 >Hello Everyone...</h5>
+						<p>First One</p>
+					</div>
+                </div>
+                    <div class="carousel-item">
+					<img src="../image/v.jpg" class="d-block w-100">
+					<div class="carousel-caption d-none d-md-block">
+						<h5 >Hello Everyone...</h5>
+						<p>Second One</p>
+					</div>
+                </div> 
+                <div class="carousel-item">
+					<img src="../image/78.png" class="d-block w-100">
+					<div class="carousel-caption d-none d-md-block">
+						<h5 >Hello Everyone...</h5>
+						<p>Third One</p>
+					</div>
+                </div> 
+			</div>
+            <button class="carousel-control-prev" type="button"data-bs-target="#pass" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next"  type="button"data-bs-target="#pass" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+		</div>
+	</div>
+</div>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
